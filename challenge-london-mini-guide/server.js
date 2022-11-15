@@ -1,7 +1,7 @@
 //use expressjs and create a default route returning a string
 const express = require('express');
 const app = express();
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 
 const supportedRoutes = [
     {"/pharmcies": "retruns an array of pharmacies in a specific area"}
